@@ -1,0 +1,34 @@
+        /* Define the sidebar style */
+        .sidebar {
+          height: 100%;
+          width: 200px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #f1f1f1;
+          overflow-x: hidden;
+          padding-top: 20px;
+        }
+
+        /* Define the links inside the sidebar */
+        .sidebar a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 18px;
+          color: #818181;
+          display: block;
+        }
+
+        /* Change the color of links on hover */
+        .sidebar a:hover {
+          color: #f1f1f1;
+          background-color: #555;
+        }
+
+        /* Define the main body content style */
+        .main {
+          margin-left: 200px;
+          /* Same as the width of the sidebar */
+          padding: 0px 10px;
+        }
